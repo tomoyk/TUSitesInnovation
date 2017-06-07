@@ -1,0 +1,14 @@
+{
+  "name": "TUSitesInnovation",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "イノベーション起こしていけ？",
+  "content_scripts": [
+    {
+      "matches": [ "https://www.teu.ac.jp/*", "http://www.teu.ac.jp/*" ],
+      "js": ["script.js"],
+      "css": ["add.css"],
+      "run_at": "document_end"
+    }
+  ],"web_accessible_resources": ["add.css"]
+}
