@@ -3,10 +3,11 @@
   "version": "0.0.1",
   "manifest_version": 2,
   "description": "イノベーション起こしていけ？",
-  "icons": {  "16": "webclip.jpg",
-              "48": "webclip.jpg",
-              "128": "webclip.jpg"
+  "icons": {  "16": "webclip.png",
+              "48": "webclip.png",
+              "128": "webclip.png"
   },
+  "author": "TUT-Friends",
   "content_scripts": [
     {
       "matches": [ "https://www.teu.ac.jp/*", "http://www.teu.ac.jp/*" ],
