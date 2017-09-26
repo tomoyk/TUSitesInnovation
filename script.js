@@ -1,8 +1,9 @@
 setTimeout(function(){
   var foo = document.getElementById("mbYTP_bgndVideo");
   var hoge = document.getElementById("bgndVideo");
-  foo.setAttribute("src", "https://www.youtube.com/embed/PnnQlEQMIbs?autoplay=0&modestbranding=1&controls=0&showinfo=0&rel=0&enablejsapi=1&version=3&playerapiid=mbYTP_bgndVideo&origin=http%3A%2F%2Fwww.teu.ac.jp&allowfullscreen=true&wmode=transparent&iv_load_policy=3&html5=1&widgetid=1");
-  hoge.setAttribute("mute", false);
+  foo.setAttribute("src", "https://www.youtube.com/embed/xkMdLcB_vNU?autoplay=0&modestbranding=1&controls=0&showinfo=0&rel=0&enablejsapi=1&version=3&playerapiid=mbYTP_bgndVideo&origin=http%3A%2F%2Fwww.teu.ac.jp&allowfullscreen=true&wmode=transparent&iv_load_policy=3&html5=1&widgetid=1");
+  //hoge.setAttribute("mute", false);
+  hoge.setAttribute("data-property", "{videoURL:'https://youtu.be/xkMdLcB_vNU',containment:'#mainimgs', autoPlay:true, showControls:false, quality:'default', startAt:0, opacity:1}");
 
 }, 1000);
   var nyaan = document.getElementsByClassName("mark");
